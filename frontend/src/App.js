@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-const BACKEND_URL = 'https://lab5-backend-devin.azurewebsites.net';
+const BACKEND_URL = 'https://lab5-backend-devin.azurewebsites.net/weatherforecast';
 
 function App() {
   const [data, setData] = useState(null);
