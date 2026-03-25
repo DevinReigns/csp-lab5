@@ -21,13 +21,13 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Restore dependencies
-        run: dotnet restore ./backend
+        run: dotnet restore ./Backend/Backend.csproj
 
       - name: Build with dotnet
-        run: dotnet build ./backend --configuration Release --no-restore
+        run: dotnet build ./Backend/Backend.csproj --configuration Release --no-restore
 
       - name: Publish with dotnet
-        run: dotnet publish ./backend -c Release -o ./publish --no-build
+        run: dotnet publish ./Backend/Backend.csproj -c Release -o ./publish --no-build
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -52,4 +52,3 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_09649B91275D4A6AB0F057ADCB6557D3 }}
-          
