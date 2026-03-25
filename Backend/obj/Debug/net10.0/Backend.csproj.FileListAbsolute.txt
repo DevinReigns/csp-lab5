@@ -31,3 +31,4 @@
 /Users/devinhansaja/Documents/sliit-cs/y3-s1/CSP/lab/lab5/lab5-project/Backend/obj/Debug/net10.0/Backend.pdb
 /Users/devinhansaja/Documents/sliit-cs/y3-s1/CSP/lab/lab5/lab5-project/Backend/obj/Debug/net10.0/Backend.genruntimeconfig.cache
 /Users/devinhansaja/Documents/sliit-cs/y3-s1/CSP/lab/lab5/lab5-project/Backend/obj/Debug/net10.0/ref/Backend.dll
+/Users/devinhansaja/Documents/sliit-cs/y3-s1/CSP/lab/lab5/lab5-project/Backend/obj/Debug/net10.0/Backend.sourcelink.json
